@@ -1,0 +1,31 @@
+/* pesudo class using */
+/* pesudo class used a ':' */
+/* visited color */
+a:link, a:visited {
+    height: 100px;
+    width: 100px;
+    border:5px solid black;
+    background-color: rgb(6, 189, 245);
+    color: black;
+    padding: 75px;
+    margin-left: 600px;
+    margin-top: 150px;
+    /* block used for the box start with new line */
+    display: block;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: red;
+    border: solid black;
+}
+/* hover color */
+a:hover{
+    background-color: rgb(212, 255, 0);
+}
+
+/* action color */
+a:active{
+    background-color: red;
+}
+ 
